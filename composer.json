@@ -1,0 +1,28 @@
+{
+  "name": "wak/extend-data-for-mail-template",
+  "description": "WAK Extend Data For Mail Template",
+  "type": "shopware-platform-plugin",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "WAK Full-Service-Agentur"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WakExtendDataForMailTemplate\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "WakExtendDataForMailTemplate\\WakExtendDataForMailTemplate",
+    "label": {
+      "de-DE": "WAK Extend Data For Mail Template",
+      "en-GB": "WAK Extend Data For Mail Template"
+    },
+    "description": {
+      "en-GB": "WAK Extend Data For Mail Template",
+      "de-DE": "WAK Extend Data For Mail Template"
+    }
+  }
+}
